@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "scheme": "myapp",
+    "name": "root-project",
+    "slug": "root-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farruxturgunpolatov.elibapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.farruxturgunpolatov.elibapp",
+      "enableDangerousExperimentalLeanBuilds": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4eeecb32-eb01-416c-89af-a26cea2e43d6"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
